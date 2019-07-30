@@ -1,6 +1,6 @@
-FROM python:3.7.2
+FROM python:buster
 
-MAINTAINER Thomas Strohmeier
+MAINTAINER rafilkmp3
 
 RUN apt-get update \
 	&& apt-get install -y jq \
