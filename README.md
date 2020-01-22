@@ -1,27 +1,18 @@
 # docker-awscli
-Dockerfile for the tstrohmeier/awscli image
+Dockerfile for the rafilkmp3/awscli image
 
-@Dockerhub: https://hub.docker.com/r/tstrohmeier/awscli/
+@Dockerhub: https://hub.docker.com/r/rafilkmp3/awscli/
 
 ## Pull image
 
 ``` bash
-docker pull tstrohmeier/awscli:latest
+docker pull rafilkmp3/awscli:latest
 
 # version 3.7.2
-docker pull tstrohmeier/awscli:3.7.2
+docker pull rafilkmp3/awscli:3.7.2
 ```
 
 ## What is installed in this image?
 * awscli tool via the pip installer
 
-## ECS 
-If you need the `ecs-cli` too, then please have a look at the `ecs-cli` branch.
-
-### Pull ECS Version 
-``` bash
-docker pull tstrohmeier/awscli:latest-ecs
-
-# version 3.6.5
-docker pull tstrohmeier/awscli:3.6.5-ecs
 ```
